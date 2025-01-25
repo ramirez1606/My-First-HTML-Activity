@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 1st HTML Activity</title> 
+
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            background-color: #f2d2bd;
+            color: #333;
+            margin: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #5a5a60;
+            text-decoration: underline;
+        }
+        marquee {
+            margin: 20px 0;
+        }
+        p {
+            font-size: 18px;
+        }
+        strong {
+            color: #00000;
+        }
+        img {
+            margin: 10px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            width: 200px;
+            height: auto;
+            animation: spin 5s linear infinite; 
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg); /* Starting position */
+            }
+            100% {
+                transform: rotate(360deg); /* Full rotation */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>My 1st HTML Activity</h1>
+    
+    <p><strong>Last Name:</strong> Ramirez</p>
+    <p><strong>Given Name:</strong> Angelica Chereese</p>
+
+    <marquee behavior="scroll" direction="left">
+        <img src="cat.jpg" alt="Moving Crying Cat Meme">
+    </marquee>
+
+    <h2>Play the audio here!</h2>
+    <audio controls>
+        <source src="ngeekkk.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
